@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Proteção Personalizada para Sua Tranquilidade</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Cabeçalho */
+        .header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.2em;
+        }
+
+        /* Seções */
+        .section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #2c3e50;
+            text-align: center;
+        }
+
+        .section p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .benefits, .differentials {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .benefits li, .differentials li {
+            background: #fff;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            flex: 1 1 200px;
+            max-width: 300px;
+            text-align: center;
+        }
+
+        /* CTA */
+        .cta {
+            background-color: #27ae60;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .cta h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .cta form {
+            display: inline-block;
+            text-align: left;
+        }
+
+        .cta input[type="text"],
+        .cta input[type="email"],
+        .cta textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 15px 0;
+            border: none;
+            border-radius: 4px;
+        }
+
+        .cta input[type="submit"] {
+            background-color: #fff;
+            color: #27ae60;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }
+
+        .cta input[type="submit"]:hover {
+            background-color: #ecf0f1;
+        }
+
+        /* Rodapé */
+        .footer {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .benefits, .differentials {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .cta form {
+                width: 100%;
+            }
+
+            .cta input[type="text"],
+            .cta input[type="email"],
+            .cta textarea {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="header">
+        <h1>Proteção Personalizada para Sua Tranquilidade</h1>
+        <p>Serviços de segurança especializados para garantir a proteção de seus bens e sua paz de espírito.</p>
+    </header>
+
+    <!-- Problema que Resolvemos -->
+    <section class="section">
+        <h2>Por Que Escolher Nossos Serviços de Segurança?</h2>
+        <p>As pessoas e empresas enfrentam uma crescente preocupação com a segurança de seus bens e de si mesmas. A prevenção de crimes e a busca por tranquilidade são fundamentais. Nossa solução combate a insegurança e dissuade potenciais ameaças.</p>
+    </section>
+
+    <!-- Proposta de Solução -->
+    <section class="section">
+        <h2>Nossa Solução</h2>
+        <ul class="benefits">
+            <li><strong>Soluções Personalizadas</strong><br>Oferecemos serviços sob medida, considerando suas necessidades específicas e perfil de risco.</li>
+            <li><strong>Equipe Altamente Qualificada</strong><br>Vigilantes e escoltas armados, treinados para proteger com eficiência.</li>
+            <li><strong>Tecnologia de Ponta</strong><br>Sistemas avançados de monitoramento, controle de acesso e alarmes.</li>
+            <li><strong>Atendimento 24h</strong><br>Suporte contínuo para garantir sua segurança a qualquer hora.</li>
+        </ul>
+    </section>
+
+    <!-- Por Que Nossa Solução é Inovadora -->
+    <section class="section">
+        <h2>Por Que Nossa Solução é Inovadora</h2>
+        <ul class="benefits">
+            <li><strong>Foco no Cliente</strong><br>Cada cliente é único, e nossa solução reflete essa individualidade.</li>
+            <li><strong>Tecnologia Integrada</strong><br>Combinamos vigilância humana com tecnologia de monitoramento de última geração.</li>
+            <li><strong>Equipe Especializada</strong><br>Nossos profissionais são altamente capacitados para lidar com qualquer situação de risco.</li>
+            <li><strong>Adaptabilidade</strong><br>Estamos sempre atualizados com as últimas tendências de segurança.</li>
+        </ul>
+    </section>
+
+    <!-- Diferenciais -->
+    <section class="section">
+        <h2>Nossos Diferenciais</h2>
+        <ul class="differentials">
+            <li><strong>Portfólio Completo</strong><br>Oferecemos segurança armada, escolta e monitoramento integrado, além de serviços básicos de vigilância.</li>
+            <li><strong>Personalização</strong><br>Solucionamos de acordo com as necessidades específicas de cada cliente, evitando pacotes genéricos.</li>
+            <li><strong>Tecnologia Avançada</strong><br>Utilizamos tecnologias inovadoras para maior eficiência e segurança.</li>
+            <li><strong>Atendimento Personalizado</strong><br>Suporte próximo e resolução rápida de problemas, focando na satisfação do cliente.</li>
+        </ul>
+    </section>
+
+    <!-- Call to Action (CTA) -->
+    <section class="cta">
+        <h2>Proteja o que é Importante. Solicite Sua Avaliação de Segurança Gratuita Agora!</h2>
+        <form action="URL_DE_PROCESSAMENTO_DO_FORMULÁRIO" method="post">
+            <input type="text" name="nome" placeholder="Seu Nome" required>
+            <input type="email" name="email" placeholder="Seu E-mail" required>
+            <input type="text" name="telefone" placeholder="Seu Telefone" required>
+            <textarea name="necessidade" placeholder="Descreva Sua Necessidade de Segurança" rows="4" required></textarea>
+            <input type="submit" value="Quero Minha Avaliação Gratuita">
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <p>© 2024 Sua Empresa de Segurança. Todos os direitos reservados.</p>
+        <p>Siga-nos nas redes sociais:</p>
+        <p>
+            <a href="https://facebook.com" target="_blank">Facebook</a> |
+            <a href="https://instagram.com" target="_blank">Instagram</a> |
+            <a href="https://linkedin.com target="_blank">LinkedIn</a>
+        </p>
+        <p><a href="#politica-de-privacidade">Política de Privacidade</a></p>
+    </footer>
+
+</body>
+</html>
